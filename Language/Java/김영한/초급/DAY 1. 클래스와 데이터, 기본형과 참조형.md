@@ -1,6 +1,3 @@
-* 자바의 정석 유튜브
-https://www.youtube.com/playlist?list=PLW2UjW795-f6xWA2_MUhEVgPauhGl3xIp
-
 # 1. 클래스와 데이터
 
 ### 클래스가 필요한 이유
