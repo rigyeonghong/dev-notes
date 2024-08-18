@@ -1,0 +1,104 @@
+---
+
+excalidraw-plugin: parsed
+tags: [excalidraw]
+
+---
+==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠== You can decompress Drawing data with the command palette: 'Decompress current Excalidraw file'. For more info check in plugin settings under 'Saving'
+
+
+# Excalidraw Data
+## Text Elements
+Java에서 클래스는 처음 사용될 때 JVM에 의해 로딩
+
+
+
+클래스 로딩이란
+- 클래스 로더가 .class 파일을 찾고 JVM에 메모리에 올려놓는 것
+
+언제 클래스 로딩
+- 클래스 인스턴스 생성
+- 클래스 정적 변수 사용 (final 선언 상수 x)
+- 클래스 정적 메소드 호출
+
+예시1
+- Class Single이 있지만 호출하지 않으면
+  => 클래스 로드되지 X
+
+예시2
+- 정적 변수 호출시, final X
+  => 클래스 로드
+
+예시3
+- 정적 변수 호출, final
+  => 클래스 로드되지 X
+
+예시4
+- 정적 메서드 호출
+  => 클래스 로드
+
+예시5
+- 정적 내부 클래스의 변수 호출
+ public static class innerClass {
+    public static Single INSTANCE;
+}
+  => Single 클래스 대신 내부 innerClass만 로드
+
+
+
+
+
+ ^4ZQbTOE2
+
+초기화 진행 순서
+1. 정적 블록
+2. 정적 변수
+3. 생성자 ^xFOYSgiN
+
+public class Car {
+
+    static int 클래스변수;
+    int 인스턴스변수;
+
+    public void method(int 매개변수){
+        int 지역변수;
+    } 
+
+} ^qoU1iMLA
+
+%%
+## Drawing
+```compressed-json
+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=
+```
+%%
